@@ -1,0 +1,34 @@
+<html>
+	<head>
+		<title>A Basic Web Page</title>
+	</head>
+	<body>
+	<script>
+	
+		var input = prompt("enter a phrase");
+		var x = input.length
+		
+		function reverseSting(str){
+			return str.split("").reverse().join("");
+		}
+		function ispalendrome(orgional,reverse){
+		if (origional == reverse){
+			return ("is a palindrome")
+		}
+		else{
+			return("is not a palindrome")
+		}
+	}
+	reversed = reverseSting(input);
+	palendrome = ispalindrome(input, reversed)
+	
+	document.write("lengnth:",x);
+	document.write("<br>");
+	document.write("your input:",input):
+	document.write("<br>");
+	document.write(palindrome);
+	
+	
+	</script>
+	</body>
+</html>
